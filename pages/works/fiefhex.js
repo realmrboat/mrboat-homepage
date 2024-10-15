@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio,
   UnorderedList,
   Heading,
   Center,
