@@ -37,7 +37,7 @@ const Work = () => (
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>Developing game logic in javascript for PlayCanvas. </ListItem>
-          <ListItem>Creating inner use world building tooling.</ListItem>
+          <ListItem>Creating inner-use world building tooling.</ListItem>
           <ListItem>Designing and implementing web3 compatible game systems.</ListItem>
           <ListItem>Creating 3D animation video for promotional purposes.</ListItem>
         </UnorderedList>
