@@ -24,7 +24,7 @@ const Work = () => (
       <P>
       A VRChat World made for Hubble Exchange community events.
       <br />
-      It is launch day is something I will always remember as one of the most special days of my crypto journey.
+      It&apos;s launch day is something I will always remember as one of the most special days of my crypto journey.
       <br /> <br />
       The key efforts included:
       </P>
