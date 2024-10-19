@@ -68,20 +68,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          As a Technical Artist I represent the bridge between digital artists and software engineers, a bridge required
-          for the well-functioning of visual applications or game development projects.
+          As a Technical Artist I represent the bridge between digital artists and software engineers, a bridge required for the functionality of visual applications or game development projects.
           <br /><br />
-          While I have a wide set of skills, from Unity development to 3D animation, I specialize in pipeline design as well as
-          tooling development for 3D/2D Assets.
+          While I have a wide set of skills, from Unity development to 3D animation, I specialize in pipeline design, as well as tooling development for 3D/2D Assets.
           <br /><br />
-
-          My first experience with crypto goes back to to 2011-2012, 
-          back when people thought Bitcoin could replace fiat as a legal tender to buy pizzas.
-          Said so, I did not take active part in the community as a developer
-          until 2022, when I decided to jump from what some call web2 development to web3.
-
+          My first experience with crypto goes back to 2011-2012, when people thought Bitcoin could replace fiat as a legal tender to buy pizzas. As such, I did not take active part in the community as a developer until 2022, when I decided to jump from what some call web2 to web3 development.
           <br /><br />
-          In this page you can find some of my most notable works in the space.
+          On this page, you can find some of my most notable works.
         </Paragraph>
         <Box align="center" my={4}>
           <Button

@@ -9,9 +9,12 @@ import thumbFief from '../public/images/works/fief_eyecatch.png'
 import thumbSurvival from '../public/images/works/survival_eyecatch.png'
 import thumbHubbleverse from '../public/images/works/hubbleverse_eyecatch.png'
 import thumbFiefHex from '../public/images/works/fiefhex_eyecatch.png'
-import thumbFiefTraining from '../public/images/works/fieftraining_eyecatch.png'
+import thumbFiefTraining from '../public/images/works/hubbleversev2_eyecatch.jpg'
 import thumbFreeDBTagger from '../public/images/works/portfolio1.jpg'
 import thumbAmembo from '../public/images/works/portfolio3.jpg'
+import thumbHubbleRing from '../public/images/works/hubblering.jpg'
+
+
 
 const Works = () => (
   <Layout title="Works">
@@ -67,12 +70,12 @@ const Works = () => (
         
         
         <Section delay={0.3}>
-          <WorkGridItem id="fieftraining" thumbnail={thumbFiefTraining} title="Hubbleverse V2">
+          <WorkGridItem id="hubbleversev2" thumbnail={thumbFiefTraining} title="Hubbleverse V2">
             A second web based iteration of Hubbleverse
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="hubleverse" thumbnail={thumbHubbleverse} title="Hubbleverse">
+          <WorkGridItem id="hubbleverse" thumbnail={thumbHubbleverse} title="Hubbleverse">
             A VRChat Metaverse experience for community engagement
           </WorkGridItem>
         </Section>
@@ -87,7 +90,7 @@ const Works = () => (
       </Section>
       
       
-      <Grid templateColumns="2fr 1.135fr" gap={3} maxBlockSize={190}>
+      <Grid templateColumns="2fr 1.135fr" gap={3} maxBlockSize={183}>
       <Section delay={0.5}>
         <Center>
         <Box borderRadius="lg" overflow="hidden">
@@ -108,30 +111,28 @@ const Works = () => (
         </Section>
       </Grid>
 
-      <Grid templateColumns="1.15fr 2fr" gap={3} maxBlockSize={358}>
-      <Section delay={0.5}>
-          <Box borderRadius="lg" overflow="hidden">
-            <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
-              <source src="/images/works/fiefportal.mp4" type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
-          </Box>
-          <br />
-          <GridItem
-            thumbnail={thumbAmembo}
-          >
-          </GridItem>
-        </Section>
-      <Section delay={0.5}>
-          <GridItem
-            thumbnail={thumbFreeDBTagger}
-          >
-          </GridItem>
-        </Section>
-      
+      <Grid templateColumns="1.15fr 2fr" gap={3} maxBlockSize={345}>
+        <Section delay={0.5}>
+            <Box borderRadius="lg" overflow="hidden">
+              <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
+                <source src="/images/works/fiefportal.mp4" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </Box>
+            <br />
+            <GridItem
+              thumbnail={thumbAmembo}
+            >
+            </GridItem>
+          </Section>
+        <Section delay={0.5}>
+            <GridItem
+              thumbnail={thumbFreeDBTagger}
+            >
+            </GridItem>
+          </Section>
       </Grid>
-
-      <Grid templateColumns="1.135fr 2fr" gap={3}>
+      <Grid templateColumns="1.135fr 2fr" gap={3} maxBlockSize={183}>
         <Section delay={0.6}>
             <Box borderRadius="lg" overflow="hidden">
               <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
@@ -149,6 +150,54 @@ const Works = () => (
             </Box>
         </Section>
       </Grid>
+      <Grid templateColumns="2fr" gap={3} maxBlockSize={282}>
+        <Section delay={0.5}>
+            <Box borderRadius="lg" overflow="hidden">
+              <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
+                <source src="/images/works/HubblePassport.mp4" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </Box>
+          </Section>
+      </Grid>
+      <Grid templateColumns="3fr" gap={3} maxBlockSize={498}>
+        <Section delay={0.5}>
+            <Box borderRadius="lg" overflow="hidden">
+              <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
+                <source src="/images/works/hubblekey.mp4" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </Box>
+          </Section>
+
+      </Grid>
+      <Grid templateColumns="2fr " gap={3} maxBlockSize={280}>
+        <Section delay={0.5}>
+              <GridItem
+                thumbnail={thumbHubbleRing}
+              >
+              </GridItem>
+        </Section>
+      </Grid>
+      <Grid templateColumns="2fr 2fr" gap={3} maxBlockSize={658}>
+      <Section delay={0.5}>
+            <Box borderRadius="lg" overflow="hidden">
+              <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
+                <source src="/images/works/hubbleeth.mp4" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </Box>
+          </Section>
+        <Section delay={0.5}>
+            <Box borderRadius="lg" overflow="hidden">
+              <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
+                <source src="/images/works/hubblesavax.mp4" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </Box>
+          </Section>
+      </Grid>
+
     </Container>
   </Layout>
 )

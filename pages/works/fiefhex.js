@@ -29,23 +29,18 @@ const Work = () => (
       </Box>
       </Center>
       <P>
-        Fiefverse Hex Land is a web based X4 game which mixes the strategy, tower defense and city building genres.
+        Fiefverse Hex Land is a web based X4 game which mixes strategy, tower defense, and city building genres.
         <br /><br />
         I contributed to this project as the main developer.
         <br />
         My main duties being:
-        
-      </P>
-      <UnorderedList ml={4} my={4}>
-        <ListItem>Development of game logic in javascript for PlayCanvas. </ListItem>
-        <ListItem>Creation of inner use world building tooling.</ListItem>
-        <ListItem>
-          Design and implementation of web3 compatible game systems.
-        </ListItem>
-        <ListItem>
-          3D animation video creation for promotional purposes. 
-        </ListItem>
-      </UnorderedList>
+        </P>
+        <UnorderedList ml={4} my={4}>
+          <ListItem>Developing game logic in javascript for PlayCanvas. </ListItem>
+          <ListItem>Creating inner use world building tooling.</ListItem>
+          <ListItem>Designing and implementing web3 compatible game systems.</ListItem>
+          <ListItem>Creating 3D animation video for promotional purposes.</ListItem>
+        </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
