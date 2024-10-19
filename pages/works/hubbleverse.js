@@ -5,7 +5,6 @@ import {
   ListItem,
   UnorderedList,
   Center,
-  Box,
   Link
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
