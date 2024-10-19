@@ -20,9 +20,9 @@ const Work = () => (
       <WorkImage src="/images/works/hubbleversev2_2.jpg" alt="Website" />
       </Center>
       <P>
-      A web based update to VRChat's Hubbleverse world and a much bigger effort in terms of development than it's predecesor.
+      A web based update to VRChat&apos;s Hubbleverse world and a much bigger effort in terms of development than its predecesor.
       <br /> <br />
-      The game uses Morali's API solution for web3 interactions and photon for simple multiplayer lobbies.
+      The game uses Morali&apos;s API solution for web3 interactions and photon for simple multiplayer lobbies.
       3D Assets in this instance were designed from scratch following the Hubble Space Cats theme.
       <br /> <br />
       The key efforts included:
