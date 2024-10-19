@@ -23,6 +23,7 @@ const Work = () => (
           <source src="/images/works/fiefsurvivalvideo.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
+        Disclaimer: Not my video. Posted for project showcase purposes.
       </Box>
       </Center>
       <P>

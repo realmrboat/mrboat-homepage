@@ -79,15 +79,17 @@ const Work = () => (
       </Box>
       </Center>
       <WorkImage src="/images/works/fiefhex4.png" alt="Website" />
+
+      <WorkImage src="/images/works/fiefhex2.png" alt="Website" />
       <Center my={6}>
       <Box borderRadius="lg" overflow="hidden">
         <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
           <source src="/images/works/fiefhexland.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        Disclaimer: Not my video. Posted for project showcase purposes.
       </Box>
       </Center>
-      <WorkImage src="/images/works/fiefhex2.png" alt="Website" />
     </Container>
   </Layout>
 )
