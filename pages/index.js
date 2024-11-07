@@ -26,7 +26,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             mrboat
           </Heading>
-          <p>Technical Artist ( 3D Generalist / Pogrammer )</p>
+          <p>Technical Artist ( 3D Generalist / Programmer )</p>
         </Box>
         <Box
           flexShrink={0}
